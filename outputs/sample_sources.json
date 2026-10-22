@@ -1,0 +1,71 @@
+{
+  "generator": "scripts/make_samples.py",
+  "generated_at": "2026-10-21T18:48:37+00:00",
+  "sample_rate": 16000,
+  "n_real": 10,
+  "n_fake": 10,
+  "fake_method": "griffinlim",
+  "seed": 42,
+  "real_clips": [
+    {
+      "file": "data/real/sample1.wav",
+      "origin": "librosa.example('libri1') \u2014 LibriSpeech narration",
+      "source_offset_seconds": 0.0,
+      "length_seconds": 3.5
+    },
+    {
+      "file": "data/real/sample2.wav",
+      "origin": "librosa.example('libri1') \u2014 LibriSpeech narration",
+      "source_offset_seconds": 3.5,
+      "length_seconds": 3.5
+    },
+    {
+      "file": "data/real/sample3.wav",
+      "origin": "librosa.example('libri1') \u2014 LibriSpeech narration",
+      "source_offset_seconds": 7.0,
+      "length_seconds": 3.5
+    },
+    {
+      "file": "data/real/sample4.wav",
+      "origin": "librosa.example('libri1') \u2014 LibriSpeech narration",
+      "source_offset_seconds": 10.5,
+      "length_seconds": 3.5
+    },
+    {
+      "file": "data/real/sample5.wav",
+      "origin": "librosa.example('libri2') \u2014 LibriSpeech narration",
+      "source_offset_seconds": 0.0,
+      "length_seconds": 3.5
+    },
+    {
+      "file": "data/real/sample6.wav",
+      "origin": "librosa.example('libri2') \u2014 LibriSpeech narration",
+      "source_offset_seconds": 3.5,
+      "length_seconds": 3.5
+    },
+    {
+      "file": "data/real/sample7.wav",
+      "origin": "librosa.example('libri2') \u2014 LibriSpeech narration",
+      "source_offset_seconds": 7.0,
+      "length_seconds": 3.5
+    },
+    {
+      "file": "data/real/sample8.wav",
+      "origin": "librosa.example('libri2') \u2014 LibriSpeech narration",
+      "source_offset_seconds": 10.5,
+      "length_seconds": 3.5
+    },
+    {
+      "file": "data/real/sample9.wav",
+      "origin": "librosa.example('libri3') \u2014 LibriSpeech narration",
+      "source_offset_seconds": 0.0,
+      "length_seconds": 3.5
+    },
+    {
+      "file": "data/real/sample10.wav",
+      "origin": "librosa.example('libri3') \u2014 LibriSpeech narration",
+      "source_offset_seconds": 3.5,
+      "length_seconds": 3.5
+    }
+  ]
+}

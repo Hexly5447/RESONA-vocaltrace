@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="CODING COBRAS cobra mark">
+  <defs>
+    <linearGradient id="icBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f1b30"/>
+      <stop offset="1" stop-color="#0a0f1c"/>
+    </linearGradient>
+    <radialGradient id="icGlow" cx="50%" cy="42%" r="60%">
+      <stop offset="0" stop-color="#10b981" stop-opacity=".30"/>
+      <stop offset="1" stop-color="#10b981" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="icHood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d9668"/>
+      <stop offset="1" stop-color="#065f46"/>
+    </linearGradient>
+    <linearGradient id="icFace" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="icCoil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#064e3b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- badge -->
+  <rect x="2" y="2" width="236" height="236" rx="52" fill="url(#icBg)" stroke="#10b981" stroke-opacity=".55" stroke-width="3"/>
+  <rect x="2" y="2" width="236" height="236" rx="52" fill="url(#icGlow)"/>
+
+  <!-- code brackets flanking the resting coil -->
+  <text x="26" y="224" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="40" font-weight="700" fill="#34d399" fill-opacity=".9" text-anchor="middle">&lt;</text>
+  <text x="214" y="224" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="40" font-weight="700" fill="#34d399" fill-opacity=".9" text-anchor="middle">&gt;</text>
+
+  <!-- hood (behind head) -->
+  <path d="M120,16 C64,16 30,56 34,112 C37,154 60,184 92,196 L148,196 C180,184 203,154 206,112 C210,56 176,16 120,16 Z" fill="url(#icHood)" stroke="#34d399" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- coiled body -->
+  <rect x="44" y="188" width="152" height="42" rx="18" fill="url(#icCoil)" stroke="#34d399" stroke-width="4"/>
+  <path d="M62,204 Q120,194 178,204" fill="none" stroke="#6ee7b7" stroke-opacity=".55" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- face -->
+  <path d="M120,42 C90,42 70,66 72,100 C74,136 90,162 108,172 C113,175 127,175 132,172 C150,162 166,136 168,100 C170,66 150,42 120,42 Z" fill="url(#icFace)" stroke="#6ee7b7" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- brows -->
+  <path d="M80,86 L114,93" stroke="#064e3b" stroke-width="5" stroke-linecap="round"/>
+  <path d="M160,86 L126,93" stroke="#064e3b" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- amber eyes with vertical slit pupils -->
+  <path d="M84,102 Q98,86 112,102 Q98,118 84,102 Z" fill="#fbbf24" stroke="#92400e" stroke-width="1.5"/>
+  <ellipse cx="98" cy="102" rx="3.5" ry="9" fill="#1f2937"/>
+  <path d="M128,102 Q142,86 156,102 Q142,118 128,102 Z" fill="#fbbf24" stroke="#92400e" stroke-width="1.5"/>
+  <ellipse cx="142" cy="102" rx="3.5" ry="9" fill="#1f2937"/>
+
+  <!-- nostrils + mouth -->
+  <circle cx="113" cy="148" r="2.6" fill="#064e3b"/>
+  <circle cx="127" cy="148" r="2.6" fill="#064e3b"/>
+  <path d="M110,162 Q120,167 130,162" fill="none" stroke="#064e3b" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- forked tongue flicking over the coil (drawn last, on top) -->
+  <path d="M120,165 C120,176 120,182 120,190 M120,190 C114,198 107,201 99,204 M120,190 C126,198 133,201 141,204" fill="none" stroke="#ef4444" stroke-width="4.5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>resona — brand identity</title>
+<style>
+  :root{
+    --green:#00A651;
+    --steel:#5FA37B;
+    --paper:#F4F8F5;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--green);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  main{max-width:1120px;margin:0 auto;padding:56px 28px 96px}
+  .kicker{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--steel);margin:0 0 10px}
+  h1{font-size:34px;font-weight:700;margin:0 0 6px;letter-spacing:-.01em}
+  .sub{color:var(--steel);font-size:15px;margin:0 0 44px}
+  section{margin:0 0 40px}
+  h2{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--steel);font-weight:600;margin:0 0 14px}
+  .grid{display:grid;gap:18px}
+  .g2{grid-template-columns:1fr 1fr}
+  @media(max-width:860px){.g2{grid-template-columns:1fr}}
+  .card{
+    background:#fff;border-radius:16px;padding:38px;
+    display:flex;align-items:center;justify-content:center;
+    border:1px solid rgba(0,166,81,.12);
+  }
+  .card.green{background:var(--green);border-color:transparent}
+  .card img{max-width:100%;height:auto;display:block}
+  .card .label{
+    position:absolute;bottom:14px;left:18px;font-size:11px;letter-spacing:.16em;
+    text-transform:uppercase;color:var(--steel)
+  }
+  .cardwrap{position:relative}
+  .swatches{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+  @media(max-width:860px){.swatches{grid-template-columns:1fr}}
+  .swatch{border-radius:16px;overflow:hidden;border:1px solid rgba(0,166,81,.12);background:#fff}
+  .chip{height:110px}
+  .meta{padding:14px 16px 16px}
+  .meta strong{display:block;font-size:14px;margin-bottom:3px;color:var(--green)}
+  .meta span{display:block;font-size:12px;color:var(--steel);letter-spacing:.04em}
+  .sizes{display:flex;align-items:flex-end;gap:28px;flex-wrap:wrap;background:#fff;border-radius:16px;padding:30px 34px;border:1px solid rgba(0,166,81,.12)}
+  .size{text-align:center}
+  .size img{display:block;margin:0 auto 8px}
+  .size span{font-size:11px;color:var(--steel);letter-spacing:.12em}
+  .note{font-size:13px;line-height:1.7;color:var(--steel);max-width:760px}
+  .note code{background:#fff;border:1px solid rgba(0,166,81,.18);border-radius:5px;padding:1px 6px;font-size:12px;color:var(--green)}
+</style>
+</head>
+<body>
+<main>
+
+  <p class="kicker">Brand identity</p>
+  <h1>resona</h1>
+  <p class="sub">Ethical hacking &amp; defensive security — one green, one mark, zero gradients.</p>
+
+  <section>
+    <h2>Primary lockup</h2>
+    <div class="grid g2">
+      <div class="cardwrap"><div class="card"><img src="resona-logo-horizontal.svg" alt="resona"></div><span class="label">On white</span></div>
+      <div class="cardwrap"><div class="card green"><img src="resona-logo-horizontal-dark.svg" alt="resona"></div><span class="label">Reversed</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Stacked lockup</h2>
+    <div class="grid g2">
+      <div class="cardwrap"><div class="card"><img src="resona-logo-stacked.svg" alt="resona" style="max-width:340px"></div><span class="label">On white</span></div>
+      <div class="cardwrap"><div class="card green"><img src="resona-logo-stacked-dark.svg" alt="resona" style="max-width:340px"></div><span class="label">Reversed</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Mark &amp; app icon</h2>
+    <div class="grid g2">
+      <div class="cardwrap"><div class="card"><img src="resona-icon.svg" alt="resona" style="max-width:190px"></div><span class="label">Icon</span></div>
+      <div class="cardwrap"><div class="card"><img src="resona-app-icon.svg" alt="resona" style="max-width:190px;border-radius:22%"></div><span class="label">App icon</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Small sizes</h2>
+    <div class="sizes">
+      <div class="size"><img src="resona-icon.svg" width="64" height="75" alt=""><span>64</span></div>
+      <div class="size"><img src="resona-icon.svg" width="48" height="56" alt=""><span>48</span></div>
+      <div class="size"><img src="resona-icon.svg" width="32" height="37" alt=""><span>32</span></div>
+      <div class="size"><img src="resona-icon.svg" width="24" height="28" alt=""><span>24</span></div>
+      <div class="size" style="margin-left:14px"><img src="resona-logo-horizontal.svg" width="220" height="58" alt=""><span>Wordmark min width</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Palette — single green</h2>
+    <div class="swatches">
+      <div class="swatch"><div class="chip" style="background:#00A651"></div><div class="meta"><strong>Resona green</strong><span>#00A651 · the only color</span></div></div>
+      <div class="swatch"><div class="chip" style="background:#FFFFFF;border-bottom:1px solid rgba(0,166,81,.12)"></div><div class="meta"><strong>White</strong><span>#FFFFFF · background &amp; negative space</span></div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Typography</h2>
+    <p class="note">
+      <strong>Wordmark:</strong> custom geometric lowercase letterforms drawn as vector paths — monoline construction,
+      circular bowls, uniform 22% stroke weight. No font required; renders identically everywhere.<br>
+      <strong>Tagline:</strong> “by coding cobras” set in an italic Florentine/Renaissance serif. Rendered with
+      <code>'Bodoni 72', 'Bodoni MT', Didot, 'Playfair Display', Georgia, serif</code> (Bodoni is the Italian original), so it
+      degrades gracefully to any elegant italic serif where it is unavailable.
+    </p>
+  </section>
+
+</main>
+</body>
+</html>

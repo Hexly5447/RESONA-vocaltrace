@@ -1,0 +1,11 @@
+file,verdict,confidence,fake_probability,phase_discontinuity_score,hf_rolloff_score,latency_ms,threshold
+data/fake/sample1.wav,FAKE,0.960916,0.960916,0.442444,0.099833,11.48,0.5
+data/fake/sample10.wav,FAKE,0.955595,0.955595,0.440272,0.208531,10.713,0.5
+data/fake/sample2.wav,FAKE,0.948344,0.948344,0.441865,0.104087,10.29,0.5
+data/fake/sample3.wav,FAKE,0.958395,0.958395,0.442927,0.107245,12.142,0.5
+data/fake/sample4.wav,FAKE,0.96323,0.96323,0.440388,0.084064,10.14,0.5
+data/fake/sample5.wav,FAKE,0.943776,0.943776,0.443563,0.256718,10.554,0.5
+data/fake/sample6.wav,FAKE,0.964475,0.964475,0.435082,0.13885,10.37,0.5
+data/fake/sample7.wav,FAKE,0.961232,0.961232,0.435665,0.118092,10.313,0.5
+data/fake/sample8.wav,FAKE,0.952062,0.952062,0.433945,0.13347,11.312,0.5
+data/fake/sample9.wav,FAKE,0.928729,0.928729,0.443232,0.170004,10.582,0.5

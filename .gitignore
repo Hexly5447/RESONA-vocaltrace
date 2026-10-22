@@ -1,0 +1,25 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Virtual env ----
+.venv/
+venv/
+env/
+
+# ---- Node (resona-logo asset builder) ----
+node_modules/
+
+# ---- OS / editor junk ----
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# ---- Logs / scratch ----
+*.log

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-12 -12 810 213" width="810" height="213" role="img" aria-label="resona">
+  <title>resona</title>
+  <rect x="-12" y="-12" width="810" height="213" fill="#FFFFFF"/>
+
+  <!-- ICON: shield + rising cobra + circuit traces -->
+  <g transform="translate(0,3.5) scale(1.0714286)">
+    <path d="M26 10 H114 A10 10 0 0 1 124 20 V88 C124 120 100 144 70 158 C40 144 16 120 16 88 V20 A10 10 0 0 1 26 10 Z" fill="#00A651"/>
+    <g fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M17 30 H32 V44"/>
+      <path d="M123 30 H108 V44"/>
+    </g>
+    <circle cx="32" cy="49" r="4.5" fill="#FFFFFF"/>
+    <circle cx="108" cy="49" r="4.5" fill="#FFFFFF"/>
+    <path d="M79 100 C58 94 46 84 46 70 C46 58 53 47 60 50 C66 53 68 62 69 74 C70 86 74 94 79 100 Z" fill="#FFFFFF"/>
+    <path d="M54 136 C46 124 54 113 65 109 C78 105 87 92 86 70" fill="none" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"/>
+    <path d="M66 40 C78 36 92 40 99 47 C102 50 101 57 97 61 C88 66 74 67 68 62 C63 57 62 44 66 40 Z" fill="#FFFFFF"/>
+    <circle cx="87" cy="50" r="4.5" fill="#00A651"/>
+  </g>
+
+  <!-- WORDMARK: custom geometric lowercase letterforms -->
+  <g transform="translate(190,0)" fill="none" stroke="#00A651" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round">
+    <path d="M11 100 L11 11 M11 50 A39 39 0 0 1 50 11"/>
+    <path d="M69 50 H147 M147 50 A39 39 0 1 0 126.3 84.4"/>
+    <path d="M230.5 14.5 A34 19.5 0 1 0 211 50 A34 19.5 0 1 1 183.1 80.7"/>
+    <circle cx="316" cy="50" r="39"/>
+    <path d="M389 100 L389 50 A39 39 0 0 1 467 50 L467 100"/>
+    <circle cx="540" cy="50" r="39"/>
+    <path d="M579 11 L579 100"/>
+  </g>
+
+  <!-- TAGLINE -->
+  <text x="485" y="174" text-anchor="middle" fill="#00A651"
+        font-family="'Bodoni 72','Bodoni MT',Didot,'Playfair Display',Georgia,'Times New Roman',serif"
+        font-style="italic" font-size="66" letter-spacing="4">by coding cobras</text>
+</svg>

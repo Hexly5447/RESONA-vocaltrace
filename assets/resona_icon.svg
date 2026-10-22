@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="RESONA by CODING COBRAS acoustic mark">
+  <defs>
+    <linearGradient id="rs-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6f9ff"/>
+      <stop offset="1" stop-color="#c6d7f0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- thick serpentine body along a spine (round caps) — S-curve into a coiled tail -->
+  <path fill="none" stroke="url(#rs-body)" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"
+        d="M302 214
+           C302 262 238 268 238 320
+           C238 362 300 368 300 414
+           C300 440 274 452 258 440"/>
+
+  <!-- cobra head + gentle hood flare (single smooth shape, pointing right) -->
+  <path fill="url(#rs-body)" d="
+    M236 214
+    C226 186 240 156 268 146
+    C292 138 322 146 338 164
+    C352 180 356 200 350 216
+    C346 228 336 236 324 238
+    C330 226 330 212 322 202
+    C312 190 294 186 280 192
+    C266 198 258 210 258 224
+    C250 226 242 222 236 214 Z"/>
+
+  <!-- eye -->
+  <ellipse cx="322" cy="180" rx="9" ry="12" fill="#1FE3D4" transform="rotate(24 322 180)"/>
+
+  <!-- left bracket < -->
+  <path fill="none" stroke="#1FE3D4" stroke-width="19" stroke-linecap="round" stroke-linejoin="round" d="M150 250 L106 302 L150 354"/>
+  <!-- right bracket > -->
+  <path fill="none" stroke="#1FE3D4" stroke-width="19" stroke-linecap="round" stroke-linejoin="round" d="M362 250 L406 302 L362 354"/>
+
+  <!-- audio waveform (equalizer bars over the body) -->
+  <g fill="#1FE3D4">
+    <rect x="184" y="274" width="13" height="56"  rx="6.5"/>
+    <rect x="209" y="246" width="13" height="112" rx="6.5"/>
+    <rect x="234" y="218" width="13" height="168" rx="6.5"/>
+    <rect x="259" y="198" width="13" height="208" rx="6.5"/>
+    <rect x="284" y="218" width="13" height="168" rx="6.5"/>
+    <rect x="309" y="246" width="13" height="112" rx="6.5"/>
+    <rect x="334" y="274" width="13" height="56"  rx="6.5"/>
+  </g>
+</svg>

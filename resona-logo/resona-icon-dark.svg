@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-14 -14 168 196" width="168" height="196" role="img" aria-label="resona">
+  <title>resona</title>
+  <path d="M26 10 H114 A10 10 0 0 1 124 20 V88 C124 120 100 144 70 158 C40 144 16 120 16 88 V20 A10 10 0 0 1 26 10 Z" fill="#FFFFFF"/>
+  <g fill="none" stroke="#00A651" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M17 30 H32 V44"/>
+    <path d="M123 30 H108 V44"/>
+  </g>
+  <circle cx="32" cy="49" r="4.5" fill="#00A651"/>
+  <circle cx="108" cy="49" r="4.5" fill="#00A651"/>
+  <path d="M79 100 C58 94 46 84 46 70 C46 58 53 47 60 50 C66 53 68 62 69 74 C70 86 74 94 79 100 Z" fill="#00A651"/>
+  <path d="M54 136 C46 124 54 113 65 109 C78 105 87 92 86 70" fill="none" stroke="#00A651" stroke-width="14" stroke-linecap="round"/>
+  <path d="M66 40 C78 36 92 40 99 47 C102 50 101 57 97 61 C88 66 74 67 68 62 C63 57 62 44 66 40 Z" fill="#00A651"/>
+  <circle cx="87" cy="50" r="4.5" fill="#FFFFFF"/>
+</svg>
